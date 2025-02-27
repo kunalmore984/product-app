@@ -2,23 +2,29 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
 
-#Installation
-First, clone the repository to your local machine. Then, in the project directory, run:
+Installation
+Clone the Repository:
+Open your terminal and run:
+
+```bash
+git clone https://github.com/kunalmore984/product-app.git
+```
+Install Dependencies:
+In the project directory, run:
 
 ```bash
 npm install
 ```
 This will install all the dependencies required to run the project.
 
-## Development server
-
+Development Server
 To start a local development server, run:
 
 ```bash
 ng serve
 ```
+Once the server is running, open your browser and navigate to http://localhost:4200/. The application will automatically reload whenever you modify any of the source files.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
 ## Code scaffolding
 
