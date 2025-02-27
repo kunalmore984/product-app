@@ -1,0 +1,19 @@
+<div *ngIf="product; else noProduct" class="container my-5">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title">{{ product.name }}</h1>
+        <h6 class="card-subtitle mb-2 text-muted">
+          Price: {{ product.price | currency }}
+        </h6>
+        <p class="card-text">{{ product.description }}</p>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noProduct>
+    <div class="container my-5">
+      <div class="alert alert-warning" role="alert">
+        Product not found.
+      </div>
+    </div>
+  </ng-template>
