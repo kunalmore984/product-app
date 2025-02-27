@@ -2,6 +2,14 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
 
+#Installation
+First, clone the repository to your local machine. Then, in the project directory, run:
+
+```bash
+npm install
+```
+This will install all the dependencies required to run the project.
+
 ## Development server
 
 To start a local development server, run:
